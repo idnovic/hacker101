@@ -1,14 +1,13 @@
-Welcome to Hacker101!
-=====================
-
-Hacker101 is a free class for web security.  Whether you're a programmer with an interest in bug bounties or a seasoned security professional, Hacker101 has something to teach you.
+---
+layout: landing
+---
 
 Getting Started
 ---------------
 
 Hacker101 is structured as a set of video lessons -- some covering multiple topics, some covering a single one -- and can be consumed in two different ways.  You can either watch them in the order produced as in a normal class ([§](#sessions) Sessions), or you can watch individual videos ([§](#vulnerabilities) Vulnerabilities).  If you're new to security, we recommend the former; this provides a guided path through the content and covers more than just individual bugs.
 
-Additionally, there are coursework levels where you can hunt for bugs and experiment with exploitation in practice.  As you work through the content, try out the coursework to see what you can find!
+Additionally, we have a [CTF (Capture The Flag)](https://ctf.hacker101.com/) where you can hunt for bugs and experiment with exploitation in practice.  You can access that [here](https://ctf.hacker101.com/).
 
 Sessions
 --------
@@ -28,6 +27,14 @@ Sessions
 	- [Crypto Crash Course](sessions/crypto_crash_course.md)
 	- [Crypto Attacks](sessions/crypto_attacks.md)
 	- [Crypto Wrap-Up](sessions/crypto_wrap-up.md)
+- [Threat Modeling](sessions/threat_modeling.md)
+- [Writing Good Reports](sessions/good_reports.md)
+- Burp Suite series
+	- [Getting Started](sessions/burp101.md)
+	- [Maximizing Burp](sessions/burp201.md)
+	- [Burp Hacks for Bounty Hunters](sessions/burp301.md)
+- [Secure Architecture Review](sessions/secure_architecture.md)
+- [Server-Side Request Forgery](sessions/ssrf.md)
 
 Vulnerabilities
 ---------------
@@ -43,7 +50,7 @@ Vulnerabilities
 - [Padding Oracle](vulnerabilities/padding_oracle.md)
 - [Reflected Cross-Site Scripting (XSS)](vulnerabilities/reflected_xss.md)
 - [Session Fixation](vulnerabilities/session_fixation.md)
-- [SQL Injection](vulnerabilities/sqli)
+- [SQL Injection](vulnerabilities/sqli.md)
 - [Stored Cross-Site Scripting (XSS)](vulnerabilities/stored_xss.md)
 - [Stream Cipher Key Reuse](vulnerabilities/stream_reuse.md)
 - [Subdomain Takeover](vulnerabilities/subdomain_takeover.md)
@@ -52,15 +59,7 @@ Vulnerabilities
 Coursework
 ----------
 
-- [Level 0: Breakerbank](coursework/level0.md)
-- [Level 1: Breakbook](coursework/level1.md)
-- [Level 2: Breaker Profile](coursework/level2.md)
-- [Level 3: Breaker CMS](coursework/level3.md)
-- [Level 4: Breaker News](coursework/level4.md)
-- [Level 5: Document Repository](coursework/level5.md)
-- [Level 6: Student Center](coursework/level6.md)
-- [Level 7: Guardian](coursework/level7.md)
-- [Level 8: Document Exchange](coursework/level8.md)
+The coursework for Hacker101 has been deprecated in favor of the [Hacker101 CTF](https://ctf.hacker101.com/).  You can find the source for the old coursework [here](https://github.com/Hacker0x01/Hacker101Coursework).
 
 Help and FAQ
 ---------------

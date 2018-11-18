@@ -7,7 +7,7 @@ Getting Started
 
 Hacker101 is structured as a set of video lessons -- some covering multiple topics, some covering a single one -- and can be consumed in two different ways.  You can either watch them in the order produced as in a normal class ([§](#sessions) Sessions), or you can watch individual videos ([§](#vulnerabilities) Vulnerabilities).  If you're new to security, we recommend the former; this provides a guided path through the content and covers more than just individual bugs.
 
-Additionally, there are coursework levels where you can hunt for bugs and experiment with exploitation in practice.  As you work through the content, try out the coursework to see what you can find!
+Additionally, we have a [CTF (Capture The Flag)](https://ctf.hacker101.com/) where you can hunt for bugs and experiment with exploitation in practice.  You can access that [here](https://ctf.hacker101.com/).
 
 Sessions
 --------
@@ -27,6 +27,14 @@ Sessions
 	- [Crypto Crash Course](sessions/crypto_crash_course)
 	- [Crypto Attacks](sessions/crypto_attacks)
 	- [Crypto Wrap-Up](sessions/crypto_wrap-up)
+- [Threat Modeling](sessions/threat_modeling)
+- [Writing Good Reports](sessions/good_reports)
+- Burp Suite series
+	- [Getting Started](sessions/burp101)
+	- [Maximizing Burp](sessions/burp201)
+	- [Burp Hacks for Bounty Hunters](sessions/burp301)
+- [Secure Architecture Review](sessions/secure_architecture)
+- [Server-Side Request Forgery](sessions/ssrf)
 
 Vulnerabilities
 ---------------
@@ -51,15 +59,7 @@ Vulnerabilities
 Coursework
 ----------
 
-- [Level 0: Breakerbank](coursework/level0)
-- [Level 1: Breakbook](coursework/level1)
-- [Level 2: Breaker Profile](coursework/level2)
-- [Level 3: Breaker CMS](coursework/level3)
-- [Level 4: Breaker News](coursework/level4)
-- [Level 5: Document Repository](coursework/level5)
-- [Level 6: Student Center](coursework/level6)
-- [Level 7: Guardian](coursework/level7)
-- [Level 8: Document Exchange](coursework/level8)
+The coursework for Hacker101 has been deprecated in favor of the [Hacker101 CTF](https://ctf.hacker101.com/).  You can find the source for the old coursework [here](https://github.com/Hacker0x01/Hacker101Coursework).
 
 Help and FAQ
 ---------------
